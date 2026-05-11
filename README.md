@@ -1,94 +1,80 @@
 # Tag & Bag - Supermarket
 
-# Un joc care provoacă neliniște🛒
+# The Most Stressful Grocery Run You'll Ever Experience 🛒
 
 ![full-shopping-cart-snacks-grocery-shopping-supermarket-cart](https://github.com/user-attachments/assets/3ba200f7-f8c7-46d8-af70-e37d7baf0fa3)
 
-## 📚 Cuprins
+## 📚 Table of Contents
 
 - [🎮 Gameplay](#-gameplay)
-- [⚠️ Reguli](#️-reguli)
+- [⚠️ Rules](#️-rules)
 - [🏆 Win Streaks & Power-ups](#-win-streaks--power-ups)
-- [🧠 Strategie](#-strategie)
-- [🔧 Tehnologie](#-tehnologie)
+- [🧠 Strategy](#-strategy)
+- [🔧 Technology](#-technology)
 
 ---
 
 ## 🎮 Gameplay
 
-La începutul fiecărei sesiuni, jucătorul alege una dintre cele 3 **versiuni de dificultate**:
+At the beginning of each session, the player chooses one of the 3 available **difficulty modes**:
 
-- `1` — **Ușor**: 1 minut și 30 secunde
-- `2` — **Mediu**: 1 minut
-- `3` — **Greu**: 1 minut cu **buget limitat**
+- `1` — **Easy**: 1 minute and 30 seconds
+- `2` — **Medium**: 1 minute
+- `3` — **Hard**: 1 minute with a **limited budget**
 
-După selectarea nivelului de dificultate, jocul pornește automat. În fiecare rundă:
+After selecting the difficulty, the game starts automatically. During each run:
 
-- Primești o **listă de cumpărături generată aleator**.
-- Vizitezi **raioane** (fructe, legume, carne, dulciuri etc.), **fără posibilitatea de a reveni** la cele anterioare.
-- Introduci **indexurile produselor** dorite din acel raion pentru a le adăuga în coș.
-- Folosești `-1` pentru a trece la următorul raion.
-- Folosești `99` pentru a **ieși din joc**.
+- You receive a **randomly generated shopping list**.
+- You visit different **store sections** (fruits, vegetables, meat, sweets, etc.), **without the ability to return** to previous sections.
+- You enter the **indexes of the desired products** from each section to add them to your cart.
+- Use `-1` to move to the next section.
+- Use `99` to **exit the game**.
 
 ---
 
-## ⚠️ Reguli
+## ⚠️ Rules
 
-- Dacă timpul expiră sau alegi să ieși din joc → **ai pierdut**.
-- Dacă nu ai **exact produsele cerute** în coș la final → **ai pierdut**.
-- Dacă termini lista corect și în timp → **ai câștigat!**
+- If the timer runs out or you choose to exit the game → **you lose**.
+- If your cart does not contain **exactly the required products** at the end → **you lose**.
+- If you complete the shopping list correctly and within the time limit → **you win!**
 
 ---
 
 ## 🏆 Win Streaks & Power-ups
 
-Jocul urmărește **șirul de victorii consecutive (win streak)**. La anumite praguri, primești **power-up-uri** care pot fi folosite strategic:
+The game tracks your **consecutive wins (win streak)**.  
+At certain milestones, you unlock special **power-ups** that can be used strategically:
 
-| Win Streak | Power-up                                                            |
-|------------|---------------------------------------------------------------------|
-| 2          | 🔄 Sortare automată a itemelor de pe un raion ales                  |
-| 3          | 💸 Discount dinamic aplicat coșului (10%, apoi +10% per streak)     |
-| 4          | 🧊 Freeze Timer — oprește cronometrul pentru 15 secunde             |
-| 5          | ⏱ +30 secunde bonus la timpul total                                |
+| Win Streak | Power-up |
+|------------|-----------|
+| 2 | 🔄 Automatically sorts items from a selected section |
+| 3 | 💸 Dynamic cart discount (10%, then +10% per streak) |
+| 4 | 🧊 Freeze Timer — pauses the timer for 15 seconds |
+| 5 | ⏱ +30 bonus seconds added to the total time |
 
-> ⚠️ Dacă pierzi o rundă, win streak-ul se resetează.
-
----
-
-## 🧠 Strategie
-
-- Fii atent la ce adaugi din fiecare raion — nu poți reveni!
-- Gândește-te strategic când să folosești power-up-urile.
-- În versiunea "Greu", gestionează-ți atent **bugetul** pe lângă timp.
+> ⚠️ Losing a round resets your win streak.
 
 ---
 
-## 🔧 Tehnologie
+## 🧠 Strategy
 
-- Limbaj: **C++**
-- Interfață: **Consolă**
+- Be careful what you pick from each section — you cannot go back!
+- Use your power-ups strategically to maximize efficiency.
+- In Hard mode, you must manage both your **budget** and your **time** carefully.
 
 ---
 
+## 🔧 Technology
+
+- Language: **C++**
+- Interface: **Console / Command Line**
+
+---
 
 ![full-shopping-cart-snacks-grocery-shopping-supermarket-cart](https://github.com/user-attachments/assets/3ba200f7-f8c7-46d8-af70-e37d7baf0fa3)
 
 ---
 
-## Tema 3
+## 📦 Resources
 
-#### Cerințe
-- [ ] 2 șabloane de proiectare (design patterns)
-- [ ] o clasă șablon cu sens; minim **2 instanțieri**
-  - [ ] preferabil și o funcție șablon (template) cu sens; minim 2 instanțieri
-- [ ] minim 85-90% din codul propriu să fie C++
-<!-- - [ ] o specializare pe funcție/clasă șablon -->
-- [ ] tag de `git` pe commit cu **toate bifele**: de exemplu `v0.3` sau `v1.0`
-
-
----
-
-
-## Resurse
-
-- soon
+- Coming soon
